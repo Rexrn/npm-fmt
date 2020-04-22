@@ -2632,7 +2632,7 @@ class format_string_checker {
   explicit FMT_CONSTEXPR format_string_checker(
       basic_string_view<Char> format_str, ErrorHandler eh)
       : arg_id_(-1),
-        context_(format_str, eh),
+        context_(format_str, sizeof...(Args), eh),
         parse_funcs_{&parse_format_specs<Args, parse_context_type>...} {}
 
   FMT_CONSTEXPR void on_text(const Char*, const Char*) {}
