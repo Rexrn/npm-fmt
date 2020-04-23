@@ -2,7 +2,7 @@
   "name": "fmtlib",
   "version": "6.2.0",
   "description": "(C++ fork of) A modern formatting library",
-  "main": " ",
+  "main": "fmt.project.json",
   "directories": {
     "doc": "doc",
     "test": "test"

@@ -1,0 +1,10 @@
+{
+	"name": "fmtlib",
+	"type": "interface",
+	"includeDirectories": {
+		"interface": [ "include" ]
+	},
+	"definitions": {
+		"interface": [ "FMT_HEADER_ONLY" ]
+	}
+}
